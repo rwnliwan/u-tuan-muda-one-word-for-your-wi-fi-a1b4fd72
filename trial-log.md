@@ -62,4 +62,17 @@ situationship / breadcrumbing / catfish), peekaboo, buffering, liar/flaky.
 
 ## Bundle / check
 
-(To be filled with the real bundle + check results.)
+- Bundle v1 (builder, 24 Nov ~19:53 WITA): `u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72-bundle-v1.tar.gz`,
+  805.874 B, sha256 `5f979b86a7fe4b861fe5568ad66693fdaa89e57ec2b3235c5d7a6cdec2ad646f`.
+  Warning: 0 usage rows attached (subagent rows flush only when the run ends).
+- Check v1 (commit `16788e46ac4b26e02d41b45d818aff0f91bae5f7`):
+  **13 passed / 1 failed / 5 skipped / 5 at submission**. Only failure:
+  `thinking_priced` (0 usage rows — expected for a still-running subagent).
+  `thinking_reproduces` 100,0% (82/82 lines, main.ts 24 authored lines),
+  `thinking_revised` PASS (trial-log.md from 2 messages). All 5
+  at-submission checks are the standard pre-submit items (repo public —
+  yes; owner.json — committed; created after open — yes; commit pushed —
+  yes; duplicate snapshot — own work).
+- Bundle v2 + check v2 (after this genuine trial-log revision + re-commit):
+  (to be filled below — usage rows still 0 until this run ends; the
+  coordinator attaches them with --muse-usage after the run flushes.)
